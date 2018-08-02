@@ -1,0 +1,39 @@
+@(products: products)
+<html>
+    <head>
+        <title>
+            PRODUCT ORDER.
+        </title>
+    </head>
+    <body>
+        <div class="col-md-12">
+        <h2 class="bg-warning text-dark">PRODUCT ORDER.</h2>
+        <table class="table table-dark">
+            <tr>
+                <th> ID :</th>
+                <td>@products.getId</td>
+            </tr>
+            <tr>
+                <th> Name :</th>
+                <td>@products.getName</td>
+            </tr>
+            <tr>
+                <th>Col :</th>
+                <td>@products.getCol</td>
+            </tr>
+            <tr>
+                <th>Capacity :</th>
+                <td>@products.getCapacity</td>
+            </tr>
+            <tr>
+                <th>Price :</th>
+                <td>@products.getPrice</td>
+            </tr>
+            <tr>
+                <th>Amount :</th>
+                <td>@products.getAmount</td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>
